@@ -1,0 +1,38 @@
+-- Oque e React?
+
+-- React e uma biblioteca JavaScript para           desenvolvimento de aplicações front-end;
+-- Estas aplicações sao chamadas de SPA (Single Page Application);
+-- A arquitetura do React e baseada em componentes;
+-- Pode ser inserido em uma aplicação ou podemos criar a aplicação apenas com React;
+
+-- Oque e Node.js?
+
+-- O Node.js e uma runtime de JavaScript;
+-- Ou seja, uma biblioteca utilizada por um compilador durante a execução do programa;
+-- Que esta construída na V8 engine (escrita em C++) da Google;
+-- Possibilitando criar softwares em JS no lado do servidor;
+-- Temos então um código JS rodando em C++ para garantir alta performance;
+
+-- Oque e npm?
+
+-- O npm e um gerenciador de pacotes do Node;
+-- Vamos poder utilizar bibliotecas de terceiros, baixando elas pelo npm;
+-- E também executar determinados scripts no nosso programa;
+-- Dificilmente um software em Node.js nao utiliza npm;
+-- Os módulos externos ficam numa pasta chamada node_modules;
+-- Ela deve ser descartável, ou seja, a cada instalação do projeto baixamos todos os pacotes novamente;
+
+-- Hello World em React:
+
+-- Para criar as nossa aplicações em React vamos utilizar um executor de scripts do Node, que e o npx;
+-- Com o comando: npx create-react-app <nome> temos uma nova aplicação sendo gerada;
+-- Podemos iniciar a aplicação com npm start;
+
+-- Estrutura base 
+
+-- Ha algumas pastas e arquivos chave para o desenvolvimento em React;
+-- node_modules: Onde as dependências do projeto ficam;
+-- public: Onde assets estáticos e HTML de inicialização;
+-- src: Onde vamos programar as nossas apps;
+-- src/index.js: Arquivo de inicialização do React;
+-- src/App.js: componente principal da aplicação;
