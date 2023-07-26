@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100%; /* Preenche toda a altura da tela */
+}
+
+.box_container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column; /* Alinha os elementos verticalmente */
+  align-items: center; /* Centraliza horizontalmente dentro do container */
+  height: 80vh; /* Ajusta a altura para 80% da altura da janela */
+}
+
+.h1_title {
+  color: #fff;
+  text-shadow: 0 0 0.4em #87F, 0 0 0.3em #87F, 0 0 0.3em #87F;
+  margin-bottom: 20px; /* Adiciona um espaço entre o título e a lista de carros */
+}
+
+.car_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Centraliza horizontalmente a lista de carros */
+}
+
+.car_box {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(137, 119, 255, 0.307);
+  box-shadow: 0 0 0.9em #F87;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.car_box p {
+  padding-top: 5px;
+  text-align: center;
+  text-shadow: 0 0 0.1em gray, 0 0 0.10em gray, 0 0 0.1em gray;
+}
