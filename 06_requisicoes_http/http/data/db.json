@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Shirt",
+      "price": "59.90"
+    },
+    {
+      "id": "2",
+      "name": "Red pants",
+      "price": "90"
+    },
+    {
+      "id": "3",
+      "name": "Straight brim cap",
+      "price": "29.90"
+    },
+    {
+      "id": "4",
+      "name": "Black shoe",
+      "price": "89"
+    },
+    {
+      "id": "5",
+      "name": "White sock",
+      "price": "6.99"
+    },
+    {
+      "id": "6",
+      "name": "Green underpants",
+      "price": "8.99"
+    },
+    {
+      "name": "Cap",
+      "price": "12.60",
+      "id": "IRJF2Kr"
+    },
+    {
+      "name": "Black boots",
+      "price": "129",
+      "id": "Vc0nT9W"
+    },
+    {
+      "name": "T-shirt",
+      "price": "12.50",
+      "id": "IjydkIX"
+    }
+  ]
+}
